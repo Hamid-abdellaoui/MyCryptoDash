@@ -20,4 +20,5 @@ Table : a dynamic table presents the first 130 cryptocurrencies , it can be sort
 
 ## Used technologies : Html , Javascript , chartjs , Json2html , Jquery , Css , bootstrap 
 ## Thanks
-The data used in this dashboard provided by Coingecko ![coingecko](coingecko.com) ![coingecko](https://github.com/Hamid-abdellaoui/MyCryptoDash/blob/main/src/images/coingecko.webp)
+The data used in this dashboard provided by Coingecko free API
+![coingecko](https://github.com/Hamid-abdellaoui/MyCryptoDash/blob/main/src/images/coingecko.webp)
