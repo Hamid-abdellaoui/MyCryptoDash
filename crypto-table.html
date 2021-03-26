@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      td img {
+        width: 20px;
+        height: 20px;
+      }
+      body {
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+      }
+    </style>
+    <title>CryptoData</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/json2html/1.4.0/json2html.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link
+      href="vendors/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="vendors/font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <!-- NProgress -->
+    <link href="vendors/nprogress/nprogress.css" rel="stylesheet" />
+    <!-- iCheck -->
+    <link href="vendors/iCheck/skins/flat/green.css" rel="stylesheet" />
+    <!-- Datatables -->
+    <link
+      href="vendors/datatables.net-bs/css/dataTables.bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom Theme Style -->
+    <link href="build/css/custom.min.css" rel="stylesheet" />
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        
+        <!-- left side bar start  -->
+        <div class="col-md-3 left_col footer_fixed menu_fixed">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0px">
+              <a href="#" class="site_title"
+                ><i class="fa fa-bitcoin"></i> <span>KryptoDash </span></a
+              >
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info start-->
+            <div class="profile clearfix">
+              <div class="profile_pic">
+                <img
+                  src="src/images/img.jpg"
+                  alt="..."
+                  class="img-circle profile_img"
+                />
+              </div>
+              <div style="color: rgb(3, 146, 115);">
+                <span>Hamid</span>
+                <h2>Abdellaoui</h2>
+              </div>
+            </div>
+            <!-- /menu profile quick info end -->
+
+            <br />
+
+            <!-- sidebar menu start -->
+            <div
+              id="sidebar-menu"
+              class="main_menu_side hidden-print main_menu"
+            >
+              <div class="menu_section">
+                <h3>General</h3>
+                <ul class="nav side-menu">
+                  <li>
+                    <a href="index.html"><i class="fa fa-home"></i> Home</a>
+                  </li>
+                  <li>
+                    <a
+                      ><i class="fa fa-bitcoin"></i> Cryptocurrencies
+                      <span class="fa fa-chevron-down"></span
+                    ></a>
+                    <ul class="nav child_menu">
+                      <li><a href="bitcoin.html"> Bitcoin</a></li>
+                      <li><a href="ethereum.html"> Ethereum</a></li>
+                      <li><a href="binancecoin.html">Binancecoin</a></li>
+                      <li><a href="tether.html">Tether</a></li>
+                      <li><a href="cardano.html">Cardano</a></li>
+                      <li><a href="polkadot.html">Polkadot</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="crypto-table.html"><i class="fa fa-table"></i> Table </a>
+                  </li>
+                  <li>
+                    <a
+                      ><i class="fa fa-bar-chart-o"></i> other things
+                      <span class="label label-success pull-right">soon
+                      </span>
+                      <span class="fa fa-chevron-down"></span
+                    ></a>
+                    <ul class="nav child_menu">
+                      <li><a href="####"> Soon</a></li>
+                      <li><a href="####"> Soon</a></li>
+                      <li><a href="####"> Soon</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="menu_section">
+                <h3>Some informations</h3>
+                <ul class="nav side-menu">
+                  <li>
+                    <a><i class="fa fa-stack-exchange"></i> Platforms </a>
+                    
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+            <!-- sidebar menu end -->
+
+            <!-- 
+========================================================================================================================================================================================================================
+-->
+
+            <!-- menu footer buttons start -->
+            <div class="sidebar-footer hidden-small">
+              <a
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Github"
+                href="###"
+              >
+                <span class="fa fa-github" aria-hidden="true"></span>
+              </a>
+              <a
+                data-toggle="tooltip"
+                data-placement="top"
+                title="instagram"
+                href="###"
+              >
+                <span class="fa fa-instagram" aria-hidden="true"></span>
+              </a>
+              <a
+                data-toggle="tooltip"
+                data-placement="top"
+                title="linkedin"
+                href="###"
+              >
+                <span class="fa fa-linkedin" aria-hidden="true"></span>
+              </a>
+              <a
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Fb"
+                href="###"
+              >
+                <span class="fa fa-facebook" aria-hidden="true"></span>
+              </a>
+            </div>
+            <!-- menu footer buttons end-->
+          </div>
+        </div>
+        <!-- left side bar end -->
+
+        <!-- 
+========================================================================================================================================================================================================================
+-->
+
+        <!-- top navigation start -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <nav>
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="pull-right">
+                  <div class="btn" style="color: rgb(29, 122, 122)">
+                    <h4>
+                      <script>
+                        document.write(
+                          " &nbsp;" +
+                            new Date().getDate() +
+                            "-" +
+                            (new Date().getMonth() + 1) +
+                            "-" +
+                            new Date().getFullYear() +
+                            " &nbsp; &nbsp;"
+                        );
+                      </script>
+                      <span id="klock"><script src="klock.js"></script></span>
+                      &nbsp; &nbsp; &nbsp;
+                    </h4>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- top navigation end -->
+
+        <!-- 
+========================================================================================================================================================================================================================
+-->
+
+        <div class="right_col" role="main">
+          <!-- Responsive lovely table start-->
+
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="x_panel">
+              <div class="x_title">
+                <h2>
+                  Cryptocurrencies General informations<small
+                    ><i>
+                      <a href="https://www.coingecko.com/">
+                        Data provided by CoinGecko
+                      </a></i
+                    ></small
+                  >
+                </h2>
+                <ul class="nav navbar-right panel_toolbox">
+                  <li>
+                    <a class="collapse-link"
+                      ><i class="fa fa-chevron-up"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                  </li>
+                  <li>
+                    <a href="javacript:void(0)" onclick=""><i class="fa fa-refresh"></i></a>
+                  </li>
+                </ul>
+                <div class="clearfix"></div>
+              </div>
+              <div class="x_content">
+                <p class="text-muted font-13 m-b-30"></p>
+                <table
+                  id="datatable-responsive"
+                  class="table table-striped table-bordered dt-responsive nowrap center-margin center"
+                  cellspacing="0"
+                  width="100%"
+                >
+                  <thead>
+                    <th>#</th>
+                    <th>Logo</th>
+                    <th>Symbol</th>
+                    <th>Name</th>
+                    <th>Current</th>
+                    <th>Market.Cap</th>
+                    <th>Totale.Volume</th>
+                    <th>high_24h</th>
+                    <th>low_24h</th>
+                    <th>% in 24h</th>
+                    <th>$ change in 24h</th>
+                  </thead>
+                  <tbody>
+                    <script src="data.js"></script>
+                    <script>
+                      function refreshit() {
+                        document.write(json2html.transform(mydata, template));
+                      }
+                      let template = {
+                        "<>": "tr",
+                        html: [
+                          { "<>": "td", html: "${market_cap_rank}" },
+                          {
+                            "<>": "td",
+                            html: [{ "<>": "img", src: "${image}" }],
+                          },
+
+                          {
+                            "<>": "td",
+                            class: "text-capitalize",
+                            html: " ${symbol}",
+                          },
+                          { "<>": "td", html: " ${name}" },
+                          { "<>": "td", html: " $ ${current_price}" },
+                          { "<>": "td", html: " $ ${market_cap}" },
+                          { "<>": "td", html: " $ ${total_volume}" },
+                          { "<>": "td", html: "$ ${high_24h}" },
+                          { "<>": "td", html: "$ ${low_24h}" },
+                          {
+                            "<>": "td",
+                            html: " ${market_cap_change_percentage_24h} %",
+                          },
+                          { "<>": "td", html: "${price_change_24h}" },
+                        ],
+                      };
+                      refreshit();
+                    
+                    </script>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <!-- Responsive lovely table end  -->
+        </div>
+
+        <!-- footer content -->
+        <footer>
+          <div class="text-center">
+            DATA PROVIDED BY
+            <a href="https://www.coingecko.com/fr"
+              ><i> COINGECKO </i>
+              <img
+                src="src/images/coingecko.webp"
+                alt=""
+                style="height: 20px"
+            /></a>
+          </div>
+        </footer>
+        <!-- footer content -->
+      </div>
+    </div>
+  </body>
+  <!-- jQuery -->
+  <script src="vendors/jquery/dist/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- FastClick -->
+  <script src="vendors/fastclick/lib/fastclick.js"></script>
+  <!-- NProgress -->
+  <script src="vendors/nprogress/nprogress.js"></script>
+ 
+  <!-- Datatables -->
+  <script src="vendors/datatables.net/js/jquery.dataTables.min.js"></script>
+  <script src="vendors/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+  <script src="vendors/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+  <script src="vendors/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
+  <script src="vendors/datatables.net-buttons/js/buttons.flash.min.js"></script>
+  <script src="vendors/datatables.net-buttons/js/buttons.html5.min.js"></script>
+  <script src="vendors/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+  <script src="vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
+  <script src="vendors/datatables.net-scroller/js/dataTables.scroller.min.js"></script>
+  <script src="vendors/jszip/dist/jszip.min.js"></script>
+
+  <!-- Custom Theme Scripts -->
+  <script src="build/js/custom.min.js"></script>
+</html>
