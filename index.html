@@ -207,59 +207,6 @@
           <!-- top tiles -->
           <div class="row tile_count text-center">
 
-            
-            <div class="col-md-2 col-sm-12 col-xs-12 tile_stats_count">
-              <span class="count_top">
-                <i class="fa fa-dollar"> </i> &nbsp; Active Cryptocurrencies
-              </span>
-              <div class="count" id="active_crypto"></div>
-              <span class="count_bottom"> </span>
-            </div>
-
-            <div class="col-md-2 col-sm-12 col-xs-12 tile_stats_count">
-              <span class="count_top">
-                <i class="fa fa-shopping-cart"></i> &nbsp; Markets</span
-              >
-              <div class="count" id="markets"></div>
-              <span class="count_bottom"
-                ><i class="green"> 0% </i>From last Week
-              </span>
-            </div>
-
-            <div class="col-md-2 col-sm-12 col-xs-12 tile_stats_count">
-              <span class="count_top">
-                <i class="fa fa-money"></i> &nbsp; Market cap change in 24h
-              </span>
-              <div class="count green" id="cap_change"></div>
-              <span class="count_bottom">
-                <i class="green"><i class="fa fa-sort-asc"></i>34% </i> From
-                last Week
-              </span>
-            </div>
-
-            <div class="col-md-2 col-sm-12 col-xs-12 tile_stats_count">
-              <span class="count_top"
-                ><i class="fa fa-bitcoin"></i> &nbsp; Current Bitcoin
-                price</span
-              >
-              <div class="count" id="bitcoin"></div>
-              <span class="count_bottom"
-                ><i class="red" id="24change"></i> From last 24 hours</span
-              >
-            </div>
-
-            <div class="col-md-4 col-sm-12 col-xs-12 tile_stats_count">
-              <span class="count_top"
-                ><i class="fa fa-bitcoin"></i> &nbsp;Bitcoin Market Capital in
-                USD</span
-              >
-              <div class="count" id="cap_market"></div>
-              <span class="count_bottom"
-                ><i class="red" id="24change"></i> From last 24 hours</span
-              >
-            </div>
-          </div>
-          <!-- /top tiles -->
 
           
           <!-- TradingView Widget BEGIN -->
@@ -270,7 +217,6 @@
   new TradingView.widget(
   {
     "autosize": true,
-    "height":500
   "symbol": "BITSTAMP:BTCUSD",
   "interval": "1",
   "timezone": "Europe/Paris",
@@ -288,93 +234,8 @@
 </div>
 <!-- TradingView Widget END -->
 
-            <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="x_panel">
-              <div class="x_title">
-                <h2>
-                  % Change in 24h for the Top10 Cryptocurrencies <small></small>
-                </h2>
-                <ul class="nav navbar-right panel_toolbox">
-                  <li>
-                    <a class="collapse-link"
-                      ><i class="fa fa-chevron-up"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a class="close-link"><i class="fa fa-close"></i></a>
-                  </li>
-                </ul>
-                <div class="clearfix"></div>
-              </div>
-              <div class="x_content">
-                <canvas id="mybarChart"></canvas>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="x_panel">
-              <div class="x_title">
-                <h2>
-                  Dominance
-                  <small
-                    >The Top10 Cryptocurrencies pourcentage in Capital
-                    market</small
-                  >
-                </h2>
-                <ul class="nav navbar-right panel_toolbox">
-                  <li>
-                    <a class="collapse-link"
-                      ><i class="fa fa-chevron-up"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a class="close-link"><i class="fa fa-close"></i></a>
-                  </li>
-                </ul>
-                <div class="clearfix"></div>
-              </div>
-              <div class="x_content">
-                <canvas id="pieChart"></canvas>
-              </div>
-            </div>
-          </div>
 
-          <table
-            id="datatable-responsive"
-            class="table table-striped table-bordered dt-responsive nowrap center-margin center"
-            cellspacing="0"
-            width="100%"
-          >
-            <thead>
-              <th>id</th>
-              <th>btc</th>
-              <th>eth</th>
-              <th>bnb</th>
-              <th>usdt</th>
-              <th>ada</th>
-              <th>dot</th>
-              <th>xrp</th>
-              <th>uni</th>
-              <th>ltc</th>
-              <th>link</th>
-            </thead>
-            <tbody>
-              <tr role="row">
-                <td>name</td>
-                <td>Bitcoin</td>
-                <td>Ethereum</td>
-                <td>binancecoin</td>
-                <td>tether</td>
-                <td>cardano</td>
-                <td>polkadot</td>
-                <td>ripple</td>
-                <td>uniswap</td>
-                <td>litecoin</td>
-                <td>chainlink</td>
-              </tr>
-            </tbody>
-          </table>
         </div>
         <!-- /page content  end-->
 
