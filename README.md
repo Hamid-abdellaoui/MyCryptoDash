@@ -15,7 +15,7 @@ Cryptocuurencies pages : presents acandlstick chart for the last 30 days OHLC , 
 
 
 Table : a dynamic table presents the first 130 cryptocurrencies , it can be sorted by the column you want <br>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-<center><img src="https://github.com/Hamid-abdellaoui/MyCryptoDash/blob/main/src/images/cryptodash3.jpg"><img/> </center>
+<img src="https://github.com/Hamid-abdellaoui/MyCryptoDash/blob/main/src/images/cryptodash3.jpg"><img/>
 
 
 
