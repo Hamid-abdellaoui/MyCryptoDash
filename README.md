@@ -4,24 +4,25 @@ https://hamid-abdellaoui.github.io/MyCryptoDash/
 
 
 
-Home page : some statistics and indicators for the top 10 cryptocurrencies + bar graph and a pie chart of  market dominance 
-![page principale](https://github.com/Hamid-abdellaoui/MyCryptoDash/blob/main/src/images/cryptodash2.jpg)
+Home page :Contains the main financial chart in real time + some statistics and indicators for the top 10 cryptocurrencies + bar graph and a pie chart of  market dominance 
+<img src="https://github.com/Hamid-abdellaoui/MyCryptoDash/blob/main/src/images/cryptodash2.jpg" height="480" width="860"><img/>
 
 
 
 
 Cryptocuurencies pages : presents acandlstick chart for the last 30 days OHLC , and 3 other charts (daily prices, cap_market and volumes for the last week)
-![crypto](https://github.com/Hamid-abdellaoui/MyCryptoDash/blob/main/src/images/cryptodash.JPG)
+<img src="https://github.com/Hamid-abdellaoui/MyCryptoDash/blob/main/src/images/cryptodash.JPG" width="860"><img/>
 
 
 Table : a dynamic table presents the first 130 cryptocurrencies , it can be sorted by the column you want
-![table](https://github.com/Hamid-abdellaoui/MyCryptoDash/blob/main/src/images/cryptodash3.jpg)
+<center style="margin:0 20px 20px 0"> <img src="https://github.com/Hamid-abdellaoui/MyCryptoDash/blob/main/src/images/cryptodash3.jpg"><img/> </center>
+
 
 
 ## Used technologies : Html , Javascript , chartjs , Json2html , Jquery , Css , bootstrap 
 ## Thanks
 <ul>
 <li> The main trading Chart is provided By <i> <strong> TradingView </strong> </i> </li> <br>
-<li> The data used in this dashboard provided by Coingecko free API 
+<li> Some other data used in this dashboard provided by  <i> <strong> Coingecko </strong> </i> free API  <br>
   <img src="https://github.com/Hamid-abdellaoui/MyCryptoDash/blob/main/src/images/coingecko.webp" height="40"/>   </li>
 </ul>
